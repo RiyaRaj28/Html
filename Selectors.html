@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Css selectors</title>
+    <style>
+
+        /* element selectors:*/
+        p{
+            /* all p tags will have text colour red even ones inside div tag */
+            color: red;
+        }
+
+       /* id selectors */
+        #redElement{
+            /* only p tag with id redElement will have text colour red */
+            color: rgb(255, 72, 0);
+        }
+        
+        /* class selectors */
+        .bgBlue{
+            background-color: blue;
+            color: violet;
+        }
+
+        /* group selectors */
+        footer, span{ 
+            background-color: pink;
+        }
+
+
+
+    </style>
+</head>
+<body>
+    <h3>Css selectors</h3>
+    <p>simple paragraph to demonstrate css selector this is </p>
+    <p id="redElement" class="redElement bgBlue">simple paragraph to demonstrate css selector this is second</p>
+    <div>
+    <p>simple paragraph to  demonstrate css selector this is third </p>
+    <footer>This is footer</footer>
+    <span>This is span</span>
+    </div>
+  
+
+    
+</body>
+</html>
