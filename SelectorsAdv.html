@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>More on selectors</title>
+    <style>
+        h1{
+            background-color: red;
+            color: black;
+            font-weight: bold;
+            text-align: center;
+        }
+
+        /* if p is contained by any li which is contained by div  */
+        /* div li p {
+            background-color: green;
+            color: yellow;
+            font-weight: bold;
+        } */
+       
+        /* When we want the child of a tag put >  */
+        /* div > p {
+            background-color: green;
+            color: yellow;
+            font-weight: bold;
+        } */
+
+
+        /* When we want to apply prop on a tag by specifying its previous tag  */
+        /* Here these properties will be applied on all p tags which has div before it  */
+        /* div+p {
+            color: white;
+            background-color: blueviolet;
+        } */
+
+
+       
+        
+
+
+    </style>
+</head>
+<body>
+    <h1>
+        This is more on selectors
+    </h1>   
+        <div class="container">
+            <div class="row">
+                <ul>
+                <li class="class-item"><p>This is another paragraph inside li</p></li>
+
+            </ul>
+                <p>This is a paragraph</p>
+            </div>
+            <p>This is another paragraph</p>
+        </div>
+        <p>This is outermost paragraph</p>
+    
+    
+</body>
+</html>
