@@ -1,2 +1,2 @@
 # Html-Advance
-Everything I learn about HTML which are a bit advance will be pushed here.
+Advance HTML concepts for me to go through later.
